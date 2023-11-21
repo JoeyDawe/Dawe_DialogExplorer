@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center|bottom"
+    android:padding="25dp"
+    android:background="#BE02D1CA"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/alertDialogButton"
+        android:layout_width="322dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onClick"
+        android:text="@string/show_alertdialog"
+        android:textSize="18sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/datePickerButton"
+        android:layout_width="322dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/alertDialogButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onClick"
+        android:text="@string/show_datepickerdialog"
+        android:textSize="18sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/timePickerButton"
+        android:layout_width="322dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/datePickerButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="39dp"
+        android:onClick="onClick"
+
+        android:text="@string/show_timepickerdialog"
+        android:textSize="18sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/alertDialogButton"
+        android:layout_alignTop="@+id/alertDialogButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center|bottom"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-42dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="9dp"
+        android:background="#E60F0F"
+        android:gravity="center"
+        android:paddingTop="@dimen/cardview_default_elevation"
+        android:text="@string/result_will_be_displayed_here"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

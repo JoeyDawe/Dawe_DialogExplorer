@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DialogExplorer</string>
+    <string name="show_timepickerdialog">Show TimePickerDialog</string>
+    <string name="show_datepickerdialog">Show DatePickerDialog</string>
+    <string name="show_alertdialog">Show AlertDialog</string>
+    <string name="result_will_be_displayed_here">Result will be displayed here</string>
+</resources>
